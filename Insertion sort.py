@@ -7,11 +7,8 @@ def insertion_sort_desc_order(arr):
             position = position - 1
             arr[position] = key
 
-
-
-array = [56,78,90,2,1,67,88, 99] 
-print('original array:',array)  
-insertion_sort_desc_order(array)
-print("sorted array in desending order:",array)
-
-
+if __name__ == "__main__":
+    array = [56,78,90,2,1,67,88, 99]
+    print('original array:',array) 
+    insertion_sort_desc_order(array)
+    print("sorted array in desending order:",array)
